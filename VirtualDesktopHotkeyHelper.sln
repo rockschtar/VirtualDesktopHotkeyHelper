@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualDesktopLeftRight", "VirtualDesktopLeftRight\VirtualDesktopLeftRight.csproj", "{9E13D7FC-83A6-492C-B5E2-236D65473A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualDesktopLeft", "VirtualDesktopLeft\VirtualDesktopLeft.csproj", "{9DD0E16E-FAD2-4E93-BE25-C1AD353DC313}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualDesktopRight", "VirtualDesktopRight\VirtualDesktopRight.csproj", "{EA7A3FF2-8499-40B6-BB93-CAE6AB02D67A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualDesktopToggle", "VirtualDesktopToggle\VirtualDesktopToggle.csproj", "{52D05952-94C2-4570-9AA9-C093B635CBF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualDesktopHotkeyTrigger", "VirtualDesktopHotkeyTrigger\VirtualDesktopHotkeyTrigger.csproj", "{E1C0E863-DD7F-43CA-B29B-C5A282E04668}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E13D7FC-83A6-492C-B5E2-236D65473A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E13D7FC-83A6-492C-B5E2-236D65473A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E13D7FC-83A6-492C-B5E2-236D65473A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E13D7FC-83A6-492C-B5E2-236D65473A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD0E16E-FAD2-4E93-BE25-C1AD353DC313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD0E16E-FAD2-4E93-BE25-C1AD353DC313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD0E16E-FAD2-4E93-BE25-C1AD353DC313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD0E16E-FAD2-4E93-BE25-C1AD353DC313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7A3FF2-8499-40B6-BB93-CAE6AB02D67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7A3FF2-8499-40B6-BB93-CAE6AB02D67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7A3FF2-8499-40B6-BB93-CAE6AB02D67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7A3FF2-8499-40B6-BB93-CAE6AB02D67A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D05952-94C2-4570-9AA9-C093B635CBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D05952-94C2-4570-9AA9-C093B635CBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D05952-94C2-4570-9AA9-C093B635CBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D05952-94C2-4570-9AA9-C093B635CBF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C0E863-DD7F-43CA-B29B-C5A282E04668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C0E863-DD7F-43CA-B29B-C5A282E04668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C0E863-DD7F-43CA-B29B-C5A282E04668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C0E863-DD7F-43CA-B29B-C5A282E04668}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

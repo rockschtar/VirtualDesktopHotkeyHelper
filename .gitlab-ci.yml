@@ -7,4 +7,8 @@ build:
         - MONO_IOMAP=case xbuild /t:Build /p:Configuration="Release" /p:Platform="Any CPU" VirtualDesktopHotkeyHelper.sln
     artifacts:
         paths:
-        - /builds/rockschtar/VirtualDesktopHotkeyHelper/VirtualDesktopHotkeyHelper/bin/Release/
+        - /builds/rockschtar/VirutalDesktopHotkeyHelper/VirtualDesktopHotkeyTrigger/bin/Release
+        - /builds/rockschtar/VirutalDesktopHotkeyHelper/VirtualDesktopLeft/bin/Release
+        - /builds/rockschtar/VirutalDesktopHotkeyHelper/VirtualDesktopLeftRight/bin/Release
+        - /builds/rockschtar/VirutalDesktopHotkeyHelper/VirtualDesktopRight/bin/Release
+        - /builds/rockschtar/VirutalDesktopHotkeyHelper/VirtualDesktopToggle/bin/Release

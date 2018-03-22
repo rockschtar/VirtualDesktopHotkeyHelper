@@ -1,0 +1,10 @@
+image: mono:5.8
+
+build:
+    stage: build
+    script:
+        - nuget restore
+        - MONO_IOMAP=case xbuild /t:Build /p:Configuration="Release" /p:Platform="Any CPU" VirtualDesktopHotkeyHelper.sln
+    artifacts:
+        paths:
+        - /builds/rockschtar/VirtualDesktopHotkeyHelper/VirtualDesktopHotkeyHelper/bin/Release/

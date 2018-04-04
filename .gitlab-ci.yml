@@ -6,8 +6,8 @@ build:
         - nuget restore
         - MONO_IOMAP=case xbuild /t:Build /p:Configuration="Release" /p:Platform="Any CPU" VirtualDesktopHotkeyHelper.sln
     artifacts:
+        name: "$CI_COMMIT_REF_NAME"
         paths:
-        - /builds/rockschtar/VirutalDesktopHotkeyHelper/VirtualDesktopHotkeyTrigger/bin/Release
         - /builds/rockschtar/VirutalDesktopHotkeyHelper/VirtualDesktopLeft/bin/Release
         - /builds/rockschtar/VirutalDesktopHotkeyHelper/VirtualDesktopLeftRight/bin/Release
         - /builds/rockschtar/VirutalDesktopHotkeyHelper/VirtualDesktopRight/bin/Release
